@@ -1,4 +1,4 @@
-# tempfile [![Build Status](https://travis-ci.org/addyosmani/tempdirectory.svg?branch=master)](https://travis-ci.org/addyosmani/tempdirectory)
+# tempdirectory [![Build Status](https://travis-ci.org/addyosmani/tempdirectory.svg?branch=master)](https://travis-ci.org/addyosmani/tempdirectory)
 
 > Get a random temp directory path
 
