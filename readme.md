@@ -1,35 +1,23 @@
-# tempfile [![Build Status](https://travis-ci.org/sindresorhus/tempfile.svg?branch=master)](https://travis-ci.org/sindresorhus/tempfile)
+# tempfile [![Build Status](https://travis-ci.org/addyosmani/tempdirectory.svg?branch=master)](https://travis-ci.org/addyosmani/tempdirectory)
 
-> Get a random temp file path
+> Get a random temp directory path
 
 
 ## Install
 
 ```
-$ npm install --save tempfile
+$ npm install --save tempdirectory
 ```
 
 
 ## Usage
 
 ```js
-const tempfile = require('tempfile');
+const tempdirectory= require('tempdirectory');
 
-tempfile('.png');
-//=> '/var/folders/_1/tk89k8215ts0rg0kmb096nj80000gn/T/4049f192-43e7-43b2-98d9-094e6760861b.png'
+tempdir();
+//=> '/var/folders/_1/tk89k8215ts0rg0kmb096nj80000gn/T/4049f192-43e7-43b2-98d9-094e6760861b'
 ```
-
-
-## API
-
-### tempfile([extension])
-
-#### extension
-
-Type: `string`
-
-Extension to append to the path.
-
 
 ## Related
 
@@ -38,4 +26,4 @@ Extension to append to the path.
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](http://sindresorhus.com), Addy Osmani

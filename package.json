@@ -1,14 +1,18 @@
 {
-  "name": "tempfile",
-  "version": "1.1.1",
-  "description": "Get a random temp file path",
+  "name": "tempdirectory",
+  "version": "1.0.0",
+  "description": "Get a random temp directory path",
   "license": "MIT",
-  "repository": "sindresorhus/tempfile",
-  "author": {
+  "repository": "addyosmani/tempdirectory",
+  "contributors": [{
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "sindresorhus.com"
-  },
+  },{
+    "name": "Addy Osmani",
+    "email": "addyosmani@gmail.com",
+    "url": "addyosmani.com"
+  }],
   "engines": {
     "node": ">=0.10.0"
   },
